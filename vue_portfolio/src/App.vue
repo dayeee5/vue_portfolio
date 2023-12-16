@@ -28,7 +28,6 @@
     { path: '/contact', component: Contact },
     { path: '/navbar', component: Navbar },
     { path: '/footer', component: Footer },
-    
   ];
   
   const router = createRouter({
@@ -43,8 +42,7 @@
       Experience,
       Contact,
       Navbar,
-      Footer,
-      
+      Footer
     },
     router
   }

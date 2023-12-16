@@ -111,7 +111,7 @@ export default {
 };
 </script>
 
-]
+
 <style>
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
@@ -126,6 +126,7 @@ body {
 i {
   margin-right: 10px;
 }
+
 .navbar-logo {
   padding: 15px;
   color: #fff;
@@ -137,26 +138,26 @@ i {
   padding: 0px;
 }
 
-/* .nav-link {
-  align-content: end;
-} */
-
 #navbarSupportedContent {
   overflow: hidden;
   position: relative;
   justify-content: flex-end;
 }
+
 #navbarSupportedContent ul {
   padding: 0px;
   margin: 0px;
 }
+
 #navbarSupportedContent ul li a i {
   margin-right: 10px;
 }
+
 #navbarSupportedContent li {
   list-style-type: none;
   float: left;
 }
+
 #navbarSupportedContent ul li a {
   color: rgba(255, 255, 255, 0.5);
   text-decoration: none;
@@ -167,11 +168,13 @@ i {
   transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
   position: relative;
 }
+
 #navbarSupportedContent > ul > li.active > a {
   color: #000000;
   background-color: transparent;
   transition: all 0.7s;
 }
+
 #navbarSupportedContent a:not(:only-child):after {
   content: '\f105';
   position: absolute;
@@ -202,6 +205,7 @@ i {
   border-top-right-radius: 15px;
   margin-top: 10px;
 }
+
 .hori-selector .right,
 .hori-selector .left {
   position: absolute;
@@ -210,12 +214,15 @@ i {
   background-color: beige;
   bottom: 10px;
 }
+
 .hori-selector .right {
   right: -25px;
 }
+
 .hori-selector .left {
   left: -25px;
 }
+
 .hori-selector .right:before,
 .hori-selector .left:before {
   content: '';
@@ -225,18 +232,22 @@ i {
   border-radius: 50%;
   background-color: #000000;
 }
+
 .hori-selector .right:before {
   bottom: 0;
   right: -25px;
 }
+
 .hori-selector .left:before {
   bottom: 0;
   left: -25px;
 }
+
 @media (max-width: 991px) {
   #navbarSupportedContent ul li a {
     padding: 12px 30px;
   }
+
   .hori-selector {
     margin-top: 0px;
     margin-left: 10px;
@@ -244,26 +255,32 @@ i {
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
   }
+
   .hori-selector .left,
   .hori-selector .right {
     right: 10px;
   }
+
   .hori-selector .left {
     top: -25px;
     left: auto;
   }
+
   .hori-selector .right {
     bottom: -25px;
   }
+
   .hori-selector .left:before {
     left: -25px;
     top: -25px;
   }
+
   .hori-selector .right:before {
     bottom: -25px;
     left: -25px;
   }
 }
+
 /* 메뉴바 상단 고정 */
 .navbar-mainbg {
   background-color: #000000;
