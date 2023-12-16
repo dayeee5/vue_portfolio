@@ -1,7 +1,5 @@
 import { createWebHistory, createRouter } from "vue-router";
-
 import Navbar from "../components/Navbar/NavbarComp.vue";
-
 import HomeComp from "../components/Home/HomeComp.vue";
 import ProfileComp from "../components/Profile/ProfileComp.vue";
 import ExperienceComp from "../components/Experience/ExperienceComp.vue";
@@ -16,7 +14,6 @@ const routes = [
   { path: "/contact", component: Contact },
   { path: "/footer", component: Footer },
 ];
-
   
   const router = createRouter({
     history: createWebHistory(),
